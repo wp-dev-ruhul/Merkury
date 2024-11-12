@@ -1,0 +1,714 @@
+/* Google Font Lato and quicksand css link */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+/* Google Font Lato and quicksand css link */
+
+/* Root color and font family */
+:root {
+    --primary-font: "Roboto", sans-serif;
+    --primary-color: #5584ff;
+    --secondary-color: #95b2fd;
+}
+
+
+/* Root color and font family */
+/* basic css desing file */
+/* Target all browsers */
+input[type=number] {
+    -moz-appearance: textfield;
+    /* For Firefox */
+    -webkit-appearance: none;
+    /* For Chrome, Safari, Edge */
+    appearance: none;
+    /* For modern browsers */
+}
+
+/* Optional: Hide the up/down arrows in WebKit-based browsers (like Chrome) */
+input[type=number]::-webkit-outer-spin-button,
+input[type=number]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+/* clears the 'X' from Internet Explorer */
+input[type=search]::-ms-clear {
+    display: none;
+    width: 0;
+    height: 0;
+}
+
+input[type=search]::-ms-reveal {
+    display: none;
+    width: 0;
+    height: 0;
+}
+
+/* clears the 'X' from Chrome */
+input[type="search"]::-webkit-search-decoration,
+input[type="search"]::-webkit-search-cancel-button,
+input[type="search"]::-webkit-search-results-button,
+input[type="search"]::-webkit-search-results-decoration {
+    display: none;
+}
+
+/* check box color change  */
+input[type="checkbox"]:checked {
+    accent-color: var(--logo-color);
+
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+
+
+}
+
+ul,
+ol {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.clearfix {
+    content: "";
+    clear: both;
+}
+
+body,
+header,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+ul,
+ol,
+p,
+span,
+table,
+footer,
+nav,
+div,
+section {
+    padding: 0;
+    margin: 0;
+
+}
+
+/* copy section css part start  */
+
+.copy {
+    background-color: #9E9BBF;
+    padding: 15px 0px;
+    text-align: center;
+}
+
+.copy p,
+.copy p a {
+    font-size: var(--primary-font);
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 20px;
+    color: #000;
+}
+
+.copy p a {
+    color: rgb(1, 46, 46);
+    margin-left: 5px;
+}
+
+/* copy section css part End */
+/* basic css style desing ended */
+/* nav bar css part start  */
+
+.h_main {
+    width: 100%;
+    background: url(../image/banner.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link {
+    font-family: var(--primary-font);
+    font-size: 18px;
+    line-height: 140px;
+    color: #fff;
+    padding: 0px 20px;
+}
+
+.nav_btn {
+    margin-left: 50px;
+}
+
+.nav_btn a {
+    font-family: var(--primary-font);
+    font-size: 18px;
+    line-height: 140px;
+    color: #5584ff;
+    text-transform: capitalize;
+}
+
+.navbar-toggler {
+    color: var(--primary-color) !important;
+    background-color: white;
+}
+
+/* nav bar css part End */
+/* banner section css part start  */
+.b_c_main {
+    width: 100%;
+    padding: 100px 0px;
+    padding-bottom: 565px;
+}
+
+.b_title {
+    font-family: var(--primary-font);
+    font-size: 60px;
+    line-height: 14px;
+    font-weight: 300;
+    color: #fff;
+}
+
+.b_sub {
+    font-family: var(--primary-font);
+    font-size: 36px;
+    line-height: 14px;
+    font-weight: 400;
+    color: #8492af;
+    margin-top: 40px;
+}
+
+.b_btn {
+    margin-top: 70px;
+}
+
+.b_btn a {
+    padding: 10px 35px;
+    background-color: var(--primary-color);
+    border-radius: 30px;
+    font-family: var(--primary-font);
+    font-size: 18px;
+    font-weight: 700;
+    color: #fff;
+
+}
+
+.b_dash {
+    left: 12%;
+    top: 264px;
+    z-index: 999;
+}
+
+/* banner section css part End */
+/* About Section CSS Start */
+.about {
+    padding: 250px 0 150px 0;
+    overflow: hidden;
+}
+
+.a_title {
+    font-family: var(--primary-font);
+    font-size: 24px;
+    line-height: 80px;
+    font-weight: 700;
+    color: #0e1a35;
+}
+
+.a_sub {
+    font-family: var(--primary-font);
+    font-size: 18px;
+    line-height: 25px;
+    font-weight: 400;
+    color: #8492af;
+    padding: 0 30px;
+}
+
+.a_btn {
+    margin-top: 30px;
+}
+
+.a_btn .a_b_c {
+    padding: 10px 60px;
+    display: inline-block;
+    border-radius: 30px;
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+    font-family: var(--primary-font);
+    font-size: 18px;
+    font-weight: 700;
+    color: #0e1a35;
+}
+
+.a_t_i::after {
+    position: absolute;
+    top: 50%;
+    right: -120px;
+    content: "";
+    width: 220px;
+    height: 2px;
+    background-color: #dadee7;
+    overflow: hidden; /* Ensures no overflow from pseudo-element */
+}
+
+.u_none::after {
+    display: none;
+}
+
+
+/* About Section CSS End */
+
+/* need section css part start  */
+.need{
+    overflow: hidden;
+}
+.n_l {
+    padding: 100px 0px;
+    margin-left: 20%;
+    padding-bottom: 350px;
+    overflow: hidden;
+
+
+}
+
+.need_c {
+    top: 0;
+    right: 0;
+    padding-top: 100px;
+}
+
+.n_l_title {
+    font-family: var(--primary-font);
+    font-size: 60px;
+    font-weight: 300;
+    color: #0e1a35;
+}
+
+.n_l_sub {
+    font-family: var(--primary-font);
+    font-size: 18px;
+    font-weight: 400;
+    color: #8492af;
+    margin-top: 15px;
+    padding-right: 213px;
+}
+
+.n_l_i_box {
+    margin-top: 30px;
+}
+
+.n_l_i_box ul li {
+    margin-bottom: 10px;
+}
+
+.n_l_i_box ul li a {
+    font-family: var(--primary-font);
+    font-size: 22px;
+    line-height: 30px;
+    font-weight: 400;
+    color: var(--primary-color);
+}
+
+.n_l_i_box ul li a i {
+    margin-right: 10px;
+    font-size: 22px;
+}
+
+/* need section css part end  */
+/* progress section css part start  */
+.progres {
+    width: 100%;
+    padding: 120px 0px;
+    background: url(../image/banner.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    overflow: hidden;
+
+}
+
+.P_title {
+    font-family: var(--primary-font);
+    font-size: 22px;
+    line-height: 14px;
+    font-weight: 500;
+    color: #fff;
+    margin-bottom: 10px;
+}
+
+.P_title span {
+    color: #8492af;
+    margin-left: 10px;
+    font-weight: 900;
+}
+
+.p_title i {
+    font-size: 25px;
+    font-weight: 900;
+    color: #8492af !important;
+}
+
+.p_tab_main {
+    margin-top: 10px;
+    background-color: #fff;
+    padding: 20px;
+}
+
+.p_s_n {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: var(--primary-color);
+    font-family: var(--primary-font);
+    font-size: 14px;
+    font-weight: 700;
+    color: #fff;
+
+}
+
+.p_p_title {
+    font-family: var(--primary-font);
+    font-size: 14px;
+    font-weight: 700;
+    color: #0e1a35;
+}
+
+.p_p_sub {
+    font-family: var(--primary-font);
+    font-size: 11px;
+    font-weight: 400;
+    color: #0e1a35;
+}
+
+.p_p{
+     overflow: hidden;
+}
+.p_p_r {
+    font-size: 30px;
+    color: #0e1a35;
+}
+
+.padd-20 {
+    bottom: 0;
+}
+
+.p_p_r_title {
+    font-family: var(--primary-font);
+    font-size: 60px;
+    line-height: 14px;
+    font-weight: 300;
+    color: #fff;
+}
+
+.p_p_r_sub {
+    font-family: var(--primary-font);
+    font-size: 18px;
+    line-height: 28px;
+    margin-top: 25px;
+    color: #8492af;
+}
+
+.p_p_r_i {
+    margin-top: 25px;
+}
+
+.p_p_r_i i {
+    margin-right: 10px;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: 1px solid #fff;
+    text-align: center;
+    font-size: 25px;
+    color: #fff;
+    line-height: 40px;
+}
+
+/* progress section css part End */
+/* powerful section css part start  */
+
+.poweful {
+    padding: 100px 0px;
+    overflow: hidden;
+
+}
+
+.power_title {
+    font-family: var(--primary-font);
+    font-size: 60px;
+    line-height: 90px;
+    font-weight: 300;
+    color: #0e1a35;
+    margin-top: 70px;
+
+}
+
+.power_sub {
+    font-family: var(--primary-font);
+    font-size: 18px;
+    line-height: 30px;
+    font-weight: 400;
+    color: #0e1a35;
+    margin-top: 20px;
+    padding: 0px 150px;
+}
+
+.powerful_main {
+    padding: 100px 0px;
+    overflow: hidden;
+
+}
+
+.pc_title {
+    font-family: var(--primary-font);
+    font-size: 24px;
+    line-height: 36px;
+    font-weight: 700;
+    color: #0e1a35;
+    border-bottom: 2px solid var(--primary-color);
+    position: relative;
+
+}
+
+.pc_title::before {
+
+    position: absolute;
+    content: "";
+    bottom: -15px;
+    right: 0;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: var(--secondary-color);
+    overflow: hidden;
+}
+
+.pc_title::after {
+
+    position: absolute;
+    content: "";
+    bottom: -10px;
+    right: 5px;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: var(--primary-color);
+    overflow: hidden;
+}
+
+.p_left::before {
+
+    position: absolute;
+    content: "";
+    bottom: -15px;
+    left: 0;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: var(--secondary-color);
+}
+
+.p_left::after {
+
+    position: absolute;
+    content: "";
+    bottom: -10px;
+    left: 5px;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: var(--primary-color);
+}
+
+.pc_sub {
+    font-family: var(--primary-font);
+    font-size: 18px;
+    line-height: 30px;
+    font-weight: 400;
+    color: #0e1a35;
+    margin-top: 20px;
+    padding-right: 400px;
+}
+
+.pad-left {
+    padding-left: 400px !important;
+
+}
+
+.padd-t-300 {
+    padding-top: 350px;
+
+
+}
+
+.p_p {
+    top: 60px;
+    z-index: -1;
+    left: 35px;
+}
+
+.pr_heding {
+    margin: 50px 0px;
+}
+
+.pr_title {
+    font-family: var(--primary-font);
+    font-size: 60px;
+    font-weight: 300;
+    line-height: 14.4px;
+    color: #0e1a35;
+}
+
+/* pricing css part start  */
+.pr_content {
+    width: 100%;
+    background-color: #fff;
+    box-shadow: rgba(0, 0, 0, 0.09) 0px 3px 12px;
+    margin-top: 20px;
+    padding: 20px;
+    overflow: hidden;
+}
+
+.p_C_title {
+    font-family: var(--primary-font);
+    font-size: 24px;
+    line-height: 40px;
+    color: #0e1a35;
+}
+
+.p_C_sub {
+    font-family: var(--primary-font);
+    font-weight: 700;
+    font-size: 72px;
+    line-height: 70px;
+    color: #0e1a35;
+}
+
+.dollar {
+    font-size: 24px;
+    line-height: 36px;
+}
+
+.month_name {
+    font-size: 24px;
+    line-height: 36px;
+    font-weight: 400;
+    color: #8492af;
+}
+
+.pr_content {
+    margin-top: 30px !important;
+}
+
+.pr_content ul li {
+    font-family: var(--primary-font);
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 36px;
+    color: #8492af;
+
+}
+
+.pr_content ul li span {
+    margin-right: 5px;
+}
+
+.blue {
+    color: var(--primary-color);
+}
+
+.red {
+    color: red;
+}
+
+.p_bottom {
+    margin-top: 70px;
+}
+
+.p_bottom_text {
+    font-family: var(--primary-font);
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    color: #8492af;
+    padding: 0px 182px;
+}
+
+.p_b_btn_main {
+    width: 10%;
+    height: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 50px auto;
+}
+
+.p_b_btn {
+    font-family: var(--primary-font);
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 24px;
+    color: #fff;
+    background-color: var(--primary-color);
+    padding: 7px 26px;
+    border-radius: 30px;
+    position: relative;
+}
+
+.p_b_btn::before {
+    content: "";
+    position: absolute;
+    width: 120%;
+    height: 2px;
+    background-color: #dadee7;
+    left: 110%;
+    top: 50%;
+    z-index: 333333;
+}
+
+.p_b_btn::after {
+    content: "";
+    position: absolute;
+    width: 120%;
+    height: 2px;
+    background-color: #dadee7;
+    right: 110%;
+    top: 50%;
+    z-index: 333333;
+}
+
+/* pricing css part End */
+/* powerful section css part End  */
+/* footer section css part start  */
+footer {
+    background-color: #0e1a35;
+    padding: 40px 0px;
+    overflow: hidden;
+}
+
+.footer_c_main ul {
+    margin: auto;
+    width: 150px;
+}
+
+.footer_c_main ul li {
+    display: inline-flex;
+    width: 30px;
+    height: 30px;
+    background-color: var(--primary-color);
+    border-radius: 50%;
+    justify-content: center;
+    align-items: center;
+    margin: 0px 5px;
+}
+
+.footer_c_main ul li a i {
+    color: #fff;
+}
+
+/* footer section css part End */
